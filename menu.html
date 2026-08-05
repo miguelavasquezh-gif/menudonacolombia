@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doña Colombia – Menu</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-line"></div>
+  <h1>Doña <span>Colombia</span></h1>
+  <p class="hero-sub" data-en="Colombian Food" data-es="Comida Colombiana">Colombian Food</p>
+  <div class="hero-line-bottom"></div>
+</div>
+
+<!-- LANGUAGE BAR -->
+<div class="lang-bar">
+  <span class="lang-label" data-en="Language:" data-es="Idioma:">Language:</span>
+  <button class="lang-btn active" id="btnEN" onclick="setLang('en')">EN</button>
+  <button class="lang-btn"        id="btnES" onclick="setLang('es')">ES</button>
+</div>
+
+<!-- NIVEL 2 -->
+<section class="category-section">
+
+  <!-- CARRUSEL PUBLICITARIO -->
+  <div class="carousel" id="carousel">
+    <div class="carousel-track" id="carouselTrack"></div>
+    <button class="carousel-arrow prev" id="carouselPrev" aria-label="Previous">‹</button>
+    <button class="carousel-arrow next" id="carouselNext" aria-label="Next">›</button>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+
+  <!-- Botón volver -->
+  <a class="back-btn" href="index.html" data-en="← Back to Menu" data-es="← Volver al Menú">← Back to Menu</a>
+
+  <!-- Barra de pestañas -->
+  <div class="tabs-bar">
+    <button class="tab-arrow" onclick="scrollTabs(-1)">‹</button>
+    <div class="cat-tabs" id="catTabs">
+      <!-- Generado dinámicamente por js/app.js -->
+    </div>
+    <button class="tab-arrow" onclick="scrollTabs(1)">›</button>
+  </div>
+
+  <!-- Título de categoría -->
+  <h2 class="category-title" id="categoryTitle">Menu</h2>
+
+  <!-- Lista de platos -->
+  <div class="item-list" id="itemList">
+    <!-- Generado dinámicamente por js/app.js -->
+  </div>
+
+</section>
+
+<footer>© Doña Colombia · <span data-en="Colombian Food" data-es="Comida Colombiana">Colombian Food</span></footer>
+
+<script src="js/menudata.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
