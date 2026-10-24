@@ -415,8 +415,8 @@ const MENU_DATA = {
           icon: "🍲",
           img: "img/platos/sancocho.png",
           desc: {
-            en: "Delicious beef soup with plantain, cassava, potato, corn on the cob, and spices, served with rice and avocado.",
-            es: "Deliciosa sopa de carne de res, platano, yuca, papas, mazorca, especias acompañada de arroz y aguacate."
+            en: "Delicious beef soup with plantain, cassava, potato, corn on the cob, and spices, served with rice, salad, sweet plantain and avocado.",
+            es: "Deliciosa sopa de carne de res, platano, yuca, papas, mazorca, especias acompañada de arroz, ensalada, patacon y aguacate."
           }
         },
         {
@@ -425,8 +425,8 @@ const MENU_DATA = {
           icon: "🍲",
           img: "img/platos/mondongo.png",
           desc: {
-            en: "A delicious soup made from tripe stew, boiled with plantain, cassava, potatoes, corn on the cob, and spices; served with rice and avocado.",
-            es: "Deliciosa sopa a base de guiso de mondongo servido con platano, yuca, papas, mazorca, especias acompañado de arroz y aguacate."
+            en: "A delicious soup made from tripe stew, boiled with plantain, cassava, potatoes, corn on the cob, and spices; served with rice, salad, sweet plantain and avocado.",
+            es: "Deliciosa sopa a base de guiso de mondongo servido con platano, yuca, papas, mazorca, especias acompañada de arroz, ensalada, patacon y aguacate."
           }
         },
         {
@@ -435,18 +435,8 @@ const MENU_DATA = {
           icon: "🍲",
           img: "img/platos/ajiaco.png",
           desc: {
-            en: "A delicious traditional Colombian soup made with shredded chicken, plantain, cassava, potatoes, corn on the cob, spices, and traditional herbs; served with rice and avocado.",
-            es: "Deliciosa sopa tradicional colombiana a base de pollo desmenuzado con platano, yuca, papas, mazorca, especias, hierbas tradicionales, acompañado de arroz y aguacate."
-          }
-        },
-        {
-          name: "Sancocho de gallina",
-          price: "$22.00",
-          icon: "🍲",
-          img: "img/platos/sancocho_gallina.png",
-          desc: {
-            en: "A delicious traditional Colombian soup made with hen, plantain, cassava, potatoes, corn on the cob, spices, rice, and avocado; served with rice and avocado.",
-            es: "Deliciosa sopa tradicional colombiana a base de gallina, platano, yuca, papas, mazorca, especias, acompañado de arroz y aguacate."
+            en: "A delicious traditional Colombian soup made with shredded chicken, plantain, cassava, potatoes, corn on the cob, spices, and traditional herbs; served with rice, salad, sweet plantain and avocado.",
+            es: "Deliciosa sopa tradicional colombiana a base de pollo desmenuzado con platano, yuca, papas, mazorca, especias, hierbas tradicionales, acompañada de arroz, ensalada, patacon y aguacate."
           }
         },
         {
@@ -455,8 +445,8 @@ const MENU_DATA = {
           icon: "🍲",
           img: "img/platos/sancocho_pescado.png",
           desc: {
-            en: "A delicious traditional soup from the Colombian Caribbean made with fish, plantain, cassava, potatoes, corn on the cob, and spices; served with rice and avocado.",
-            es: "Deliciosa sopa tradicional del caribe colombiano a base de pescado, platano, yuca, papas, mazorca, especias, acompañado de arroz y aguacate."
+            en: "A delicious traditional soup from the Colombian Caribbean made with fish, plantain, cassava, potatoes, corn on the cob, and spices; served with rice, salad, sweet plantain and avocado.",
+            es: "Deliciosa sopa tradicional del caribe colombiano a base de pescado, platano, yuca, papas, mazorca, especias, acompañada de arroz, ensalada, patacon y aguacate."
           }
         }
       ]
@@ -546,7 +536,7 @@ const MENU_DATA = {
       img: "img/platos/jugos_leche.png",
       name: { en: "Drinks", es: "Bebidas" },
       items: [
-{
+        {
           name: "Colombiana",
           price: "$4.25",
           icon: "🥤",
@@ -674,6 +664,25 @@ const MENU_DATA = {
       icon: "🍛",
       img: "img/platos/corrientazo.png",
       name: { en: "Lunch Special", es: "Almuerzo Corrientazo" },
+      items: [
+        {
+          name: "Corrientazo del Día",
+          price: "$15.00",
+          icon: "🍛",
+          img: "img/platos/corrientazo.png",
+          desc: {
+            en: "",
+            es: ""
+          }
+        }
+      ]
+    },
+    
+    {
+      id: "Ice Cream",
+      icon: "🍛",
+      img: "img/platos/corrientazo.png",
+      name: { en: "Icre Cream", es: "Helados" },
       items: [
         {
           name: "Corrientazo del Día",
