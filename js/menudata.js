@@ -67,7 +67,7 @@ const MENU_DATA = {
       items: [
         {
           name: "Tamal Tolimense",
-          price: "$12.00",
+          price: "$15.00",
           icon: "🍳",
           img: "img/platos/tamal.png",
           desc: {
@@ -77,9 +77,9 @@ const MENU_DATA = {
         },
         {
           name: "Moñona",
-          price: "$13.00",
+          price: "$14.00",
           icon: "🍳",
-          img: "img/platos/monona.png",
+          img: "img/platos/monona.jpg",
           desc: {
             en: "Stewed or grilled meat, eggs prepared to your liking, rice, and ripe plantain.",
             es: "Carne guisada o a la parrilla, huevos al gusto, arroz y platano maduro"
@@ -89,7 +89,7 @@ const MENU_DATA = {
           name: "Calentado",
           price: "$12.00",
           icon: "🍳",
-          img: "img/platos/calentado.png",
+          img: "img/platos/calentado.jpg",
           desc: {
             en: "Traditional Colombian breakfast consisting of rice, meat, and beans mixed with a fried egg.",
             es: "Desayuno tradicional colombiano compuesto de arroz, carne, frijoles mezclados con huevo frito"
@@ -99,10 +99,10 @@ const MENU_DATA = {
           name: "Huevos al gusto",
           price: "$10.00",
           icon: "🍳",
-          img: "img/platos/huevos.png",
+          img: "img/platos/huevos.jpg",
           desc: {
-            en: "Scrambled, fried, sunny-side up, soft-boiled, or hard-boiled eggs",
-            es: "Huevos revueltos, fritos, estrellados, a la copa o hervidos"
+            en: "Scrambled or fried eggs, served with a portion of rice or an arepa",
+            es: "Huevos revueltos, fritos/estrellados, acompañados con una porcion de arroz o arepa"
           }
         },
         {
@@ -117,7 +117,7 @@ const MENU_DATA = {
         },
         {
           name: "Lechona",
-          price: "$12.00",
+          price: "$15.00",
           icon: "🍳",
           img: "img/platos/lechona.png",
           desc: {
@@ -135,33 +135,23 @@ const MENU_DATA = {
       name: { en: "Appetizers", es: "Entradas" },
       items: [
         {
-          name: "Patacones",
-          price: "$12.00",
+          name: "Patacones con chicharrón",
+          price: "$16.00",
           icon: "🥟",
-          img: "img/platos/patacones.png",
+          img: "img/platos/patacones.jpeg",
           desc: {
-            en: "Crispy, fried, smashed plantain slices served with hogao.",
-            es: "Crujientes rodajas de platano aplastados freidos acompañados de Hogao."
+            en: "Crispy, fried, flattened plantain slices, served with pork rinds and guacamole.",
+            es: "Crujientes rodajas de platano aplastados freidos acompañados de chicharrón y guacamole."
           }
         },
         {
-          name: "Mini picada",
-          price: "$15.00",
+          name: "Patacones con carne desmechada",
+          price: "$16.00",
           icon: "🥟",
-          img: "img/platos/minipicada.png",
+          img: "img/platos/patacon_carne.jpeg",
           desc: {
-            en: "Portion of meat and ripe plantain with chicharrón or chorizo.",
-            es: "Porcion de carnes y platano maduro con chicharron o chorizo"
-          }
-        },
-        {
-          name: "Papas criollas con chorizo o chicharron",
-          price: "$15.00",
-          icon: "🥟",
-          img: "img/platos/papascriollas.png",
-          desc: {
-            en: "Traditional crispy Colombian yellow potatoes served with chorizo ​​or chicharrón.",
-            es: "Tradicional papa colombiana amarilla crocantes acompañadas de chorrizo o chicharron"
+            en: "Crispy, fried, flattened plantain slices served with shredded meat",
+            es: "Crujientes rodajas de platano aplastados freidos acompañados de carne desmechada"
           }
         },
         {
@@ -178,7 +168,7 @@ const MENU_DATA = {
           name: "Rellena con arepa",
           price: "$15.00",
           icon: "🥟",
-          img: "img/platos/rellena_arepa.png",
+          img: "img/platos/rellena_arepa.jpg",
           desc: {
             en: "Traditional Colombian combo featuring slices of Colombian blood sausage accompanied by arepas.",
             es: "Tradicional combo colombiano compuesto de rodajas de morcilla colombiana acompañada de arepas"
@@ -188,7 +178,7 @@ const MENU_DATA = {
           name: "Pincho colombiano",
           price: "$15.00",
           icon: "🥟",
-          img: "img/platos/pincho.png",
+          img: "img/platos/pincho_colombiano.jpeg",
           desc: {
             en: "A traditional Colombian appetizer consisting of grilled beef or chicken, served with guacamole and fried plantain (patacón).",
             es: "Tradicional aperitivo colombiano compuesto de carne o pollo asado presentado a la parrilla acompañado guacamole y patacon"
@@ -243,9 +233,9 @@ const MENU_DATA = {
       items: [
         {
           name: "Tamal con acompañamientos y bebidas",
-          price: "$18.00",
+          price: "$20.00",
           icon: "🍱",
-          img: "img/platos/combo1.png",
+          img: "img/platos/combo1.jpeg",
           desc: {
             en: "A traditional Colombian breakfast featuring a Tolima-style tamal, accompanied by bread or an arepa and a beverage such as hot chocolate or a cappuccino.",
             es: "Tradicional desayuno colombiano compuesto de tamal tolimense cuyos acompañamientos son pan o arepa y bebidas como chocolate o café con leche."
@@ -253,7 +243,7 @@ const MENU_DATA = {
         },
         {
           name: "Caldo con acompañamientos y bebidas",
-          price: "$18.00",
+          price: "$20.00",
           icon: "🍱",
           img: "img/platos/combo2.png",
           desc: {
@@ -272,7 +262,7 @@ const MENU_DATA = {
       items: [
         {
           name: "Bandeja Paisa",
-          price: "$24.00",
+          price: "$25.00",
           icon: "🍽",
           img: "img/platos/bandeja_paisa.png",
           desc: {
@@ -282,9 +272,9 @@ const MENU_DATA = {
         },
         {
           name: "Churrasco",
-          price: "$28.00",
+          price: "$30.00",
           icon: "🍽",
-          img: "img/platos/churrasco.png",
+          img: "img/platos/churrasco.jpg",
           desc: {
             en: "Juicy grilled steak served with fries, yuca and guacamole.",
             es: "Jugoso bistec a la plancha acompañado de papas fritas, yuca y guacamole."
@@ -294,7 +284,7 @@ const MENU_DATA = {
           name: "Pechuga Asada",
           price: "$20.00",
           icon: "🍽",
-          img: "img/platos/pechuga_asada.png",
+          img: "img/platos/pechuga_asada.jpg",
           desc: {
             en: "Grilled chicken breast served with rice, fries and guacamole.",
             es: "Pechuga asada servida con arroz, papas fritas y guacamole."
@@ -302,22 +292,22 @@ const MENU_DATA = {
         },
         {
           name: "Pechuga en Champiñones",
-          price: "$22.00",
+          price: "$23.00",
           icon: "🍽",
-          img: "img/platos/pechuga_champinones.png",
+          img: "img/platos/pechuga_champinones.jpg",
           desc: {
-            en: "Chicken breast in mushroom sauce, served with fries and yuca.",
-            es: "Pechuga de pollo en salsa de champiñones servida con papas fritas y yuca."
+            en: "Chicken breast in mushroom sauce, served with rice, French fries, and fried plantain slices..",
+            es: "Pechuga de pollo en salsa de champiñones servida con arroz, papas fritas y patacones."
           }
         },
         {
           name: "Pechuga Hawaiana",
           price: "$23.00",
           icon: "🍽",
-          img: "img/platos/pechuga_hawaiana.png",
+          img: "img/platos/pechuga_hawaiana.jpg",
           desc: {
-            en: "Chicken breast with ham and pineapple, served with fries and yuca.",
-            es: "Pechuga con jamón y piña servida con papas fritas y yuca."
+            en: "Chicken breast in mushroom sauce, served with rice, French fries, and fried plantain slices.",
+            es: "Pechuga con jamón y piña servida con arroz, papas fritas y patacones."
           }
         },
         {
@@ -334,42 +324,52 @@ const MENU_DATA = {
           name: "Carne Asada",
           price: "$20.00",
           icon: "🍽",
-          img: "img/platos/carne_asada.png",
+          img: "img/platos/carne_asada.jpg",
           desc: {
-            en: "Delicious grilled beef served with rice, fries, yuca and guacamole.",
-            es: "Deliciosa carne a la plancha acompañada con arroz, papas fritas, yuca y guacamole."
+            en: "Delicious grilled meat served with rice, french fries, plantains, and guacamole.",
+            es: "Deliciosa carne a la plancha acompañada con arroz, papas fritas, plátano y guacamole."
           }
         },
         {
           name: "Sobrebarriga en Salsa",
-          price: "$22.00",
+          price: "$24.00",
           icon: "🍽",
-          img: "img/platos/sobrebarriga.png",
+          img: "img/platos/sobrebarriga.jpg",
           desc: {
-            en: "Beef in sauce with yuca, potato, rice and salad.",
-            es: "Carne con yuca, papa, arroz y ensalada."
+            en: "Delicious stewed meat, served with cassava, potato, rice, avocado, and plantain.",
+            es: "Deliciosa carne guisada, servida con yuca, papa, arroz, aguacate y plátano."
           }
         },
         {
           name: "Calderito Doña Colombia",
-          price: "$22.00",
+          price: "$23.00",
           icon: "🍽",
-          img: "img/platos/calderito_dona.png",
+          img: "img/platos/calderito_dona_colombia.jpeg",
           desc: {
             en: "Rice, beans, pork crackling, chorizo, sweet plantain and pico de gallo.",
             es: "Arroz, frijoles, chicharrón, chorizo, maduro y pico de gallo."
           }
         },
         {
-          name: "Pechuga Gratinada",
-          price: "$20.00",
+          name: "Calderito ropa vieja",
+          price: "$23.00",
           icon: "🍽",
-          img: "img/platos/pechuga_gratinada.png",
+          img: "img/platos/calderito_ropa_vieja.jpeg",
           desc: {
-            en: "Chicken served with fries and salad.",
-            es: "Pollo servido con papas fritas y ensalada."
+            en: "Rice, beans, pork crackling, chorizo, sweet plantain and pico de gallo.",
+            es: "Arroz, frijoles, chicharrón, chorizo, maduro y pico de gallo."
           }
-        }
+        },
+        {
+          name: "Calderito pork",
+          price: "$23.00",
+          icon: "🍽",
+          img: "img/platos/calderito_pork.jpeg",
+          desc: {
+            en: "Rice, beans, pork crackling, chorizo, sweet plantain and pico de gallo.",
+            es: "Arroz, frijoles, chicharrón, chorizo, maduro y pico de gallo."
+          }
+        },
       ]
     },
 
@@ -379,19 +379,10 @@ const MENU_DATA = {
       img: "img/platos/mojarrasmall.png",
       name: { en: "Seafood", es: "Mariscos" },
       items: [
-        {
-          name: "Salmon con camarones",
-          price: "$23.00",
-          icon: "🐟",
-          img: "img/platos/salmon.png",
-          desc: {
-            en: "Delicious salmon fillet topped with shrimp, served with toston, cassava and guacamole.",
-            es: "Delicioso filete de salmon cubierto con camarones acompañado de toston, yuca y guacamole."
-          }
-        },
+
         {
           name: "Mojarra frita small",
-          price: "$18.00",
+          price: "$20.00",
           icon: "🐟",
           img: "img/platos/mojarrasmall.png",
           desc: {
@@ -401,7 +392,7 @@ const MENU_DATA = {
         },
         {
           name: "Mojarra frita Big",
-          price: "$26.00",
+          price: "$28.00",
           icon: "🐟",
           img: "img/platos/mojarrabig.png",
           desc: {
@@ -420,7 +411,7 @@ const MENU_DATA = {
       items: [
         {
           name: "Sancocho",
-          price: "$20.00",
+          price: "$22.00",
           icon: "🍲",
           img: "img/platos/sancocho.png",
           desc: {
@@ -430,7 +421,7 @@ const MENU_DATA = {
         },
         {
           name: "Mondongo",
-          price: "$20.00",
+          price: "$22.00",
           icon: "🍲",
           img: "img/platos/mondongo.png",
           desc: {
@@ -440,7 +431,7 @@ const MENU_DATA = {
         },
         {
           name: "Ajiaco Santafereño",
-          price: "$20.00",
+          price: "$22.00",
           icon: "🍲",
           img: "img/platos/ajiaco.png",
           desc: {
@@ -499,7 +490,7 @@ const MENU_DATA = {
         },
         {
           name: "Arepa rellena",
-          price: "$15.50",
+          price: "$16.00",
           icon: "🍔",
           img: "img/platos/arepa_rellena.jpeg",
           desc: {
@@ -531,62 +522,23 @@ const MENU_DATA = {
     },
 
     {
-      id: "bakery",
-      icon: "🥐",
-      img: "img/platos/chicharron_boca.png",
-      name: { en: "Bakery", es: "Panadería" },
+      id: "Additions",
+      icon: "🧒",
+      img: "img/platos/cat-kids.jpg",
+      name: { en: "Additions", es: "Porciones" },
       items: [
         {
-          name: "Buñuelos",
-          price: "$3.50",
-          icon: "🥐",
-          img: "img/platos/bunuelos.png",
+          name: "Papas criollas con chorizo o chicharron",
+          price: "$7.00",
+          icon: "🥟",
+          img: "img/platos/papascriollas.png",
           desc: {
-            en: "",
-            es: ""
-          }
-        },
-        {
-          name: "Mantecada",
-          price: "$15.00",
-          icon: "🥐",
-          img: "img/platos/mantecada.png",
-          desc: {
-            en: "",
-            es: ""
-          }
-        },
-        {
-          name: "Chicharron de bocadillo",
-          price: "$8.00",
-          icon: "🥐",
-          img: "img/platos/chicharron_boca.png",
-          desc: {
-            en: "",
-            es: ""
+            en: "Traditional crispy Colombian yellow potatoes served with chorizo ​​or chicharrón.",
+            es: "Tradicional papa colombiana amarilla crocantes acompañadas de chorrizo o chicharron"
           }
         }
       ]
     },
-
-/*     {
-      id: "kids",
-      icon: "🧒",
-      img: "img/platos/cat-kids.jpg",
-      name: { en: "Kids Menu", es: "Menú Infantil" },
-      items: [
-        {
-          name: "Nuggets con Papitas",
-          price: "$8.00",
-          icon: "🧒",
-          img: "img/platos/nuggets.jpg",
-          desc: {
-            en: "EXAMPLE ITEM — replace in menudata.js. Chicken nuggets with fries and juice.",
-            es: "PLATO DE EJEMPLO — reemplazar en menudata.js. Nuggets de pollo con papas y jugo."
-          }
-        }
-      ]
-    }, */
 
     {
       id: "drinks",
@@ -596,7 +548,7 @@ const MENU_DATA = {
       items: [
 {
           name: "Colombiana",
-          price: "$3.50",
+          price: "$4.25",
           icon: "🥤",
           img: "img/platos/colombiana.png",
           desc: {
@@ -606,7 +558,7 @@ const MENU_DATA = {
         },
         {
           name: "Pony Malta",
-          price: "$3.50",
+          price: "$4.25",
           icon: "🥤",
           img: "img/platos/ponymalta.png",
           desc: {
@@ -646,7 +598,7 @@ const MENU_DATA = {
         },
         {
           name: "Café",
-          price: "$2.00",
+          price: "$3.00",
           icon: "☕",
           img: "img/platos/cafe.png",
           desc: {
@@ -696,7 +648,7 @@ const MENU_DATA = {
         },
         {
           name: "Jugo en Agua",
-          price: "$5.50",
+          price: "$6.00",
           icon: "🥤",
           img: "img/platos/jugos_agua.jpg",
           desc: {
@@ -706,7 +658,7 @@ const MENU_DATA = {
         },
         {
           name: "Jugo en Leche",
-          price: "$6.50",
+          price: "$7.00",
           icon: "🥤",
           img: "img/platos/jugos_leche.png",
           desc: {
@@ -725,7 +677,7 @@ const MENU_DATA = {
       items: [
         {
           name: "Corrientazo del Día",
-          price: "$10.00",
+          price: "$15.00",
           icon: "🍛",
           img: "img/platos/corrientazo.png",
           desc: {
