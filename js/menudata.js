@@ -681,7 +681,7 @@ const MENU_DATA = {
     {
       id: "Ice Cream",
       icon: "🍛",
-      img: "img/platos/corrientazo.png",
+      img: "img/platos/",
       name: { en: "Icre Cream", es: "Helados" },
       items: [
         {
