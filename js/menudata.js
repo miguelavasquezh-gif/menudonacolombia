@@ -514,7 +514,7 @@ const MENU_DATA = {
     {
       id: "Additions",
       icon: "🧒",
-      img: "img/platos/cat-kids.jpg",
+      img: "img/platos/porciones.png",
       name: { en: "Additions", es: "Porciones" },
       items: [
         {
