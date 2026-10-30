@@ -109,7 +109,7 @@ const MENU_DATA = {
           name: "Caldo de costilla",
           price: "$10.00",
           icon: "🍳",
-          img: "img/platos/caldo.png",
+          img: "img/platos/desayuno/caldo.jpg",
           desc: {
             en: "Soup with meat, potato, spices, and arepa",
             es: "Sopa de carne, papa, especias y arepa"
@@ -245,7 +245,7 @@ const MENU_DATA = {
           name: "Caldo con acompañamientos y bebidas",
           price: "$20.00",
           icon: "🍱",
-          img: "img/platos/combo2.png",
+          img: "img/platos/combos/combo2.jpg",
           desc: {
             en: "Traditional Colombian breakfast consisting of beef, potato, and spice soup, accompanied by bread or an arepa and beverages such as hot chocolate or a cappuccino.",
             es: "Tradicional desayuno colombiano compuesto de sopa de res, papa y especias acompañado de pan o arepa y bebidas como chocolate y cafe con leche."
@@ -284,7 +284,7 @@ const MENU_DATA = {
           name: "Pechuga Asada",
           price: "$20.00",
           icon: "🍽",
-          img: "img/platos/pechuga_asada.jpg",
+          img: "img/platos/carta/pechuga_asada.jpg",
           desc: {
             en: "Grilled chicken breast served with rice, fries and guacamole.",
             es: "Pechuga asada servida con arroz, papas fritas y guacamole."
@@ -294,7 +294,7 @@ const MENU_DATA = {
           name: "Pechuga en Champiñones",
           price: "$23.00",
           icon: "🍽",
-          img: "img/platos/pechuga_champinones.jpg",
+          img: "img/platos/carta/pechuga_champinones.jpg",
           desc: {
             en: "Chicken breast in mushroom sauce, served with rice, French fries, and fried plantain slices..",
             es: "Pechuga de pollo en salsa de champiñones servida con arroz, papas fritas y patacones."
@@ -304,7 +304,7 @@ const MENU_DATA = {
           name: "Pechuga Hawaiana",
           price: "$23.00",
           icon: "🍽",
-          img: "img/platos/pechuga_hawaiana.jpg",
+          img: "img/platos/carta/pechuga_hawaiana.jpg",
           desc: {
             en: "Chicken breast in mushroom sauce, served with rice, French fries, and fried plantain slices.",
             es: "Pechuga con jamón y piña servida con arroz, papas fritas y patacones."
@@ -324,7 +324,7 @@ const MENU_DATA = {
           name: "Carne Asada",
           price: "$20.00",
           icon: "🍽",
-          img: "img/platos/carne_asada.jpg",
+          img: "img/platos/carta/carne_asada.jpg",
           desc: {
             en: "Delicious grilled meat served with rice, french fries, plantains, and guacamole.",
             es: "Deliciosa carne a la plancha acompañada con arroz, papas fritas, plátano y guacamole."
@@ -413,7 +413,7 @@ const MENU_DATA = {
           name: "Sancocho",
           price: "$22.00",
           icon: "🍲",
-          img: "img/platos/sancocho.png",
+          img: "img/platos/sopas/sancocho.jpg",
           desc: {
             en: "Delicious beef soup with plantain, cassava, potato, corn on the cob, and spices, served with rice, salad, sweet plantain and avocado.",
             es: "Deliciosa sopa de carne de res, platano, yuca, papas, mazorca, especias acompañada de arroz, ensalada, patacon y aguacate."
