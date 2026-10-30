@@ -406,7 +406,7 @@ const MENU_DATA = {
     {
       id: "weekendsoups",
       icon: "🍲",
-      img: "img/platos/sancocho.png",
+      img: "img/platos/sopas/sancocho.jpg",
       name: { en: "Weekend Soups", es: "Sopas Fines de Semana" },
       items: [
         {
