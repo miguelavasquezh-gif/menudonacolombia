@@ -69,7 +69,7 @@ const MENU_DATA = {
           name: "Tamal Tolimense",
           price: "$15.00",
           icon: "🍳",
-          img: "img/platos/tamal.png",
+          img: "img/platos/desayuno/tamal.png",
           desc: {
             en: "Delicious corn dough filled with meat, rice, and vegetables, served in a banana leaf.",
             es: "Deliciosa masa de maíz relleno de carne, arroz, verduras, presentado en hoja de platano"
