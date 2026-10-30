@@ -438,16 +438,6 @@ const MENU_DATA = {
             en: "A delicious traditional Colombian soup made with shredded chicken, plantain, cassava, potatoes, corn on the cob, spices, and traditional herbs; served with rice, salad, sweet plantain and avocado.",
             es: "Deliciosa sopa tradicional colombiana a base de pollo desmenuzado con platano, yuca, papas, mazorca, especias, hierbas tradicionales, acompañada de arroz, ensalada, patacon y aguacate."
           }
-        },
-        {
-          name: "Sancocho de pescado",
-          price: "$22.00",
-          icon: "🍲",
-          img: "img/platos/sancocho_pescado.png",
-          desc: {
-            en: "A delicious traditional soup from the Colombian Caribbean made with fish, plantain, cassava, potatoes, corn on the cob, and spices; served with rice, salad, sweet plantain and avocado.",
-            es: "Deliciosa sopa tradicional del caribe colombiano a base de pescado, platano, yuca, papas, mazorca, especias, acompañada de arroz, ensalada, patacon y aguacate."
-          }
         }
       ]
     },
