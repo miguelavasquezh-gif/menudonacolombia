@@ -79,20 +79,20 @@ const MENU_DATA = {
           name: "Moñona",
           price: "$14.00",
           icon: "🍳",
-          img: "img/platos/monona.jpg",
+          img: "img/platos/desayuno/monona.jpg",
           desc: {
-            en: "Stewed or grilled meat, eggs prepared to your liking, rice, and ripe plantain.",
-            es: "Carne guisada o a la parrilla, huevos al gusto, arroz y platano maduro"
+            en: "Stewed or grilled meat, eggs prepared to your liking, rice mix frijol, and ripe plantain.",
+            es: "Calentado de arroz con frijol, carne guisada o asada, huevos al gusto y platano maduro"
           }
         },
         {
           name: "Calentado",
           price: "$12.00",
           icon: "🍳",
-          img: "img/platos/calentado.jpg",
+          img: "img/platos/desayuno/calentado.jpg",
           desc: {
-            en: "Traditional Colombian breakfast consisting of rice, meat, and beans mixed with a fried egg.",
-            es: "Desayuno tradicional colombiano compuesto de arroz, carne, frijoles mezclados con huevo frito"
+            en: "Traditional Colombian breakfast consisting of rice, meat, and beans and eggs prepared to your liking.",
+            es: "Desayuno tradicional colombiano compuesto de arroz, frijoles y huevo frito"
           }
         },
         {
