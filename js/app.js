@@ -125,6 +125,25 @@ function renderItems() {
   var cat = MENU_DATA.categories.find(function (c) { return c.id === currentCat; });
   if (!cat) return;
 
+  var isList = cat.layout === 'list';
+  list.classList.toggle('list-mode', isList);
+
+  if (isList) {
+    list.innerHTML =
+      '<div class="list-card">' +
+        cat.items.map(function (item) {
+          return (
+            '<div class="list-row">' +
+              '<span class="list-name">' + item.name + '</span>' +
+              '<span class="list-dots"></span>' +
+              '<span class="list-price">' + item.price + '</span>' +
+            '</div>'
+          );
+        }).join('') +
+      '</div>';
+    return;
+  }
+
   list.innerHTML = cat.items.map(function (item) {
     return (
       '<div class="item-row">' +
