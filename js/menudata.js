@@ -384,7 +384,7 @@ const MENU_DATA = {
           name: "Mojarra frita small",
           price: "$20.00",
           icon: "🐟",
-          img: "img/platos/mojarrasmall.png",
+          img: "img/platos/pescados/mojarra1.jpeg",
           desc: {
             en: "A traditional dish from the Colombian Caribbean featuring a small mojarra fish served with white rice, french fries, and fried plantain slices (tostones).",
             es: "Tradicional plato del caribe colombiano compuesto de pescado Mojarra pequeña acompañada de arroz blanco, papas fritas y toston"
@@ -394,7 +394,7 @@ const MENU_DATA = {
           name: "Mojarra frita Big",
           price: "$28.00",
           icon: "🐟",
-          img: "img/platos/mojarrabig.png",
+          img: "img/platos/pescados/mojarra2.jpeg",
           desc: {
             en: "A traditional dish from the Colombian Caribbean featuring a large mojarra fish served with white rice, french fries, and fried plantain slices (tostones).",
             es: "Tradicional plato del caribe colombiano compuesto de pescado Mojarra grande acompañada de arroz blanco, papas fritas y toston"
