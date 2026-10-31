@@ -673,7 +673,7 @@ const MENU_DATA = {
       ]
     },
     
-    {
+/*     {
       id: "Ice Cream",
       icon: "🍛",
       img: "img/platos/",
@@ -690,7 +690,7 @@ const MENU_DATA = {
           }
         }
       ]
-    }
+    } */
 
   ]
 };
