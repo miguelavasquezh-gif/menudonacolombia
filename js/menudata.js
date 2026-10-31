@@ -69,7 +69,7 @@ const MENU_DATA = {
           name: "Tamal Tolimense",
           price: "$15.00",
           icon: "🍳",
-          img: "img/platos/desayuno/tamal.jpg",
+          img: "img/platos/desayuno/tamal.jpeg",
           desc: {
             en: "Delicious corn dough filled with meat, rice, and vegetables, served in a banana leaf.",
             es: "Deliciosa masa de maíz relleno de carne, arroz, verduras, presentado en hoja de platano"
@@ -99,7 +99,7 @@ const MENU_DATA = {
           name: "Huevos al gusto",
           price: "$10.00",
           icon: "🍳",
-          img: "img/platos/huevos.jpg",
+          img: "img/platos/desayuno/huevos.jpg",
           desc: {
             en: "Scrambled or fried eggs, served with a portion of rice or an arepa",
             es: "Huevos revueltos, fritos/estrellados, acompañados con una porcion de arroz o arepa"
@@ -119,7 +119,7 @@ const MENU_DATA = {
           name: "Lechona",
           price: "$15.00",
           icon: "🍳",
-          img: "img/platos/lechona.png",
+          img: "img/platos/desayuno/lechona.jpg",
           desc: {
             en: "A delicious traditional Colombian dish made with rice, peas, spices, and meat.",
             es: "Delicioso plato tradicional colombiano compuesto de arroz, arvejas, especias y carne"
@@ -503,20 +503,25 @@ const MENU_DATA = {
 
     {
       id: "Additions",
-      icon: "🧒",
+      icon: "🍽",
+      layout: "list",
       img: "img/platos/porciones.png",
-      name: { en: "Additions", es: "Porciones" },
+      name: { en: "Additions", es: "Adicionales" },
       items: [
-        {
-          name: "Papas criollas con chorizo o chicharron",
-          price: "$7.00",
-          icon: "🥟",
-          img: "img/platos/papascriollas.png",
-          desc: {
-            en: "Traditional crispy Colombian yellow potatoes served with chorizo ​​or chicharrón.",
-            es: "Tradicional papa colombiana amarilla crocantes acompañadas de chorrizo o chicharron"
-          }
-        }
+        { name: "Arroz",        price: "$4.00" },
+        { name: "Frijoles",     price: "$4.00" },
+        { name: "Papas Fritas", price: "$4.00" },
+        { name: "Chicharrón",   price: "$8.00" },
+        { name: "Chorizo",      price: "$6.00" },
+        { name: "Maduros",      price: "$4.00" },
+        { name: "Patacones",    price: "$4.00" },
+        { name: "Ensalada",     price: "$3.00" },
+        { name: "Pechuga",      price: "$4.00" },
+        { name: "Carne",        price: "$4.00" },
+        { name: "Huevo",        price: "$2.00" },
+        { name: "Guacamole",    price: "$6.00" },
+        { name: "Salchicha",    price: "$3.00" },
+        { name: "Yuca Frita",   price: "$4.00" }
       ]
     },
 
