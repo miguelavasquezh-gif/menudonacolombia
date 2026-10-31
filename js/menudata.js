@@ -62,7 +62,7 @@ const MENU_DATA = {
     {
       id: "breakfast",
       icon: "🍳",
-      img: "img/platos/breakfast.jpg",
+      img: "img/platos/desayuno/caldo.jpg",
       name: { en: "Breakfast", es: "Desayunos" },
       items: [
         {
