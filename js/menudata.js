@@ -178,7 +178,7 @@ const MENU_DATA = {
           name: "Pincho colombiano",
           price: "$15.00",
           icon: "🥟",
-          img: "img/platos/pincho_colombiano.jpeg",
+          img: "img/platos/entradas/pincho.jpg",
           desc: {
             en: "A traditional Colombian appetizer consisting of grilled beef or chicken, served with guacamole and fried plantain (patacón).",
             es: "Tradicional aperitivo colombiano compuesto de carne o pollo asado presentado a la parrilla acompañado guacamole y patacon"
