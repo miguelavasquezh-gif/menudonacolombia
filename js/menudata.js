@@ -131,7 +131,7 @@ const MENU_DATA = {
     {
       id: "appetizers",
       icon: "🥟",
-      img: "img/platos/arepa_churrasco.png",
+      img: "img/platos/entradas/pincho.jpg",
       name: { en: "Appetizers", es: "Entradas" },
       items: [
         {
@@ -492,7 +492,7 @@ const MENU_DATA = {
           name: "Platano relleno",
           price: "$18.50",
           icon: "🍔",
-          img: "img/platos/platano_relleno.png",
+          img: "img/platos/comida rapida/platano.jpeg",
           desc: {
             en: "",
             es: ""
