@@ -228,7 +228,7 @@ const MENU_DATA = {
     {
       id: "combos",
       icon: "🍱",
-      img: "img/platos/combo1.png",
+      img: "img/platos/combos/combo2.jpg",
       name: { en: "Combos", es: "Combos" },
       items: [
         {
@@ -376,8 +376,8 @@ const MENU_DATA = {
     {
       id: "seafood",
       icon: "🐟",
-      img: "img/platos/mojarrasmall.png",
-      name: { en: "Seafood", es: "Mariscos" },
+      img: "img/platos/pescados/mojarra1.jpeg",
+      name: { en: "Seafood", es: "Comida de mar" },
       items: [
 
         {
