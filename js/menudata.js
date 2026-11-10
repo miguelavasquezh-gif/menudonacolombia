@@ -257,7 +257,7 @@ const MENU_DATA = {
     {
       id: "carte",
       icon: "🍽",
-      img: "img/platos/ejecutivo.jpeg",
+      img: "img/platos/churrasco.jpg",
       name: { en: "À la Carte", es: "Platos a la Carta" },
       items: [
         {
@@ -334,7 +334,7 @@ const MENU_DATA = {
           name: "Sobrebarriga en Salsa",
           price: "$24.00",
           icon: "🍽",
-          img: "img/platos/sobrebarriga.jpg",
+          img: "img/platos/carta/sobrebarriga.jpeg",
           desc: {
             en: "Delicious stewed meat, served with cassava, potato, rice, avocado, and plantain.",
             es: "Deliciosa carne guisada, servida con yuca, papa, arroz, aguacate y plátano."
